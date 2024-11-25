@@ -180,8 +180,8 @@
     <p>INTO THE INFINITE SKIES, WHERE EXPLORATION KNOWS NO BOUNDS.</p>
   </section>
 
- <style>
-  /* Add this CSS for positioning the paragraph on the left */
+<style>
+  /* Add this CSS for positioning text and image side by side */
   .video-container {
     display: flex;
     align-items: center;
@@ -192,13 +192,21 @@
   }
 
   .video-text {
-    flex: 1 1 40%; /* Takes up 40% of the container width */
+    flex: 1 1 45%; /* Takes up 45% of the container width */
     text-align: left;
     padding-right: 1rem;
   }
 
-  .video-overlay {
-    flex: 1 1 55%; /* Takes up 55% of the container width */
+  .video-image {
+    flex: 1 1 45%; /* Takes up 45% of the container width */
+    display: flex;
+    justify-content: center;
+  }
+
+  .video-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional styling for rounded edges */
   }
 
   .rocket-gallery {
@@ -218,7 +226,7 @@
 
 <section id="rockets" class="section rockets">
   <div class="video-container">
-    <!-- Paragraph positioned to the left -->
+    <!-- Paragraph positioned on the left -->
     <div class="video-text">
       <h2>INFINITE SKIES</h2>
       <p>
@@ -226,9 +234,9 @@
         Players navigate galaxies, solve mysteries, and forge connections, reflecting on humanity's place in the cosmos.
       </p>
     </div>
-    <!-- Placeholder for the video or other content -->
-    <div class="video-overlay">
-      <!-- Add your video here if needed -->
+    <!-- Image positioned on the right -->
+    <div class="video-image">
+      <img src="images/Into the Infinite Skies (1).png" alt="Infinite Skies">
     </div>
   </div>
 
@@ -242,6 +250,7 @@
     <img src="images/LD0005309557_2 (1) (1).jpg" alt="Rocket Image 3">
   </div>
 </section>
+
 
 
 
