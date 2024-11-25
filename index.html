@@ -119,18 +119,6 @@
       gap: 1rem;
     }
 
-    /* Sliding Animation */
-    @keyframes slideInFromRight {
-      from {
-        transform: translateX(100%);
-        opacity: 0;
-      }
-      to {
-        transform: translateX(0);
-        opacity: 1;
-      }
-    }
-
     .rocket-gallery img {
       width: 300px;
       border-radius: 10px;
@@ -139,11 +127,6 @@
 
     .rocket-gallery img:hover {
       transform: scale(1.1);
-    }
-
-    /* Specific Image Animation */
-    .rocket-gallery img:first-child {
-      animation: slideInFromRight 1.5s ease-out;
     }
 
     /* Footer */
@@ -185,10 +168,10 @@
       <h2>blablabla</h2>
       <p>blabla2</p>
       <a href="#mission" class="btn">Learn More</a>
-      <video autoplay muted loop width="1920" height="1000">
-        <source src="images/314844502744625152 (1) (1).mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+       <video autoplay muted loop width="1920" height="1000">
+      <source src="images/314844502744625152 (1) (1).mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
     </div>
   </section>
 
@@ -197,27 +180,30 @@
     <p>INTO THE INFINITE SKIES, WHERE EXPLORATION KNOWS NO BOUNDS.</p>
   </section>
 
-  <section id="rockets" class="section rockets">
-    <h2>Our Rockets</h2>
-    <div class="video-container">
-      <video autoplay muted loop width="1700" height="667">
-        <source src="images/314844502744625152 (1).mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <div class="video-overlay">
-        <h3>INFINITE SKIES</h3>
-      </div>
+ <section id="rockets" class="section rockets">
+  <h2>Our Rockets</h2>
+  <div class="video-container">
+    <video autoplay muted loop width="1700" height="667">
+      <source src="images/314844502744625152 (1).mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="video-overlay">
+      <h3>INFINITE SKIES</h3>
     </div>
-    <p class="description">INTO THE INFINITE SKIES, WHERE EXPLORATION KNOWS NO BOUNDS</p>
+  </div>
+  <p class="description">INTO THE INFINITE SKIES, WHERE EXPLORATION KNOWS NO BOUNDS</p>
 
-    <div class="rocket-gallery">
-      <img src="images/Into the Infinite Skies (1).png" alt="Rocket Image 1">
-      <img src="images/LD0005309557_2 (1) (1).jpg" alt="Rocket Image 2">
-      <video controls width="300">
-        <source src="images/Into the Infinite Skies-vmake.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
+  <div class="rocket-gallery">
+    <img src="images/Into the Infinite Skies (1).png" alt="Rocket Image 1">
+    <img src="images/LD0005309557_2 (1) (1).jpg" alt="Rocket Image 2">
+    <video controls width="300">
+      <source src="images/Into the Infinite Skies-vmake.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</section>
+
+
   </section>
 
   <footer id="contact" class="footer">
